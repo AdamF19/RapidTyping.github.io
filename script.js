@@ -9,6 +9,7 @@ let interval
 timerNumber = 0
 
 
+
 quoteInputElement.addEventListener('input', () => {
   const arrayQuote = quoteDisplayElement.querySelectorAll('span')
   const arrayValue = quoteInputElement.value.split('')
